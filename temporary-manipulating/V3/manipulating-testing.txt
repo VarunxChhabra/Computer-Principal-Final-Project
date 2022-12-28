@@ -1,0 +1,63 @@
+*** Start of Searching Strings Demo ***
+Type the string (q to quit):
+Seneca College
+Type the substring:
+S
+'S' found at 0 position
+Type the string (q to quit):
+Seneca College
+Type the substring:
+
+' ' found at 6 position
+Type the string (q to quit):
+Seneca College
+Type the substring:
+e
+'e' found at 1 position
+Type the string (q to quit):
+Seneca College is in North York
+Type the substring:
+Y
+'Y' found at 27 position
+Type the string (q to quit):
+My name is Nimit. I am studying in Seneca College.
+Type the substring:
+S
+'S' found at 35 position
+Type the string (q to quit):
+Computer Programming and Analysis is a three year advanced diploma prograM.
+Type the substring:
+M
+'M' found at 73 position
+Type the string (q to quit):
+Computer Programming and Analysis is a three year advanced diploma program at Seneca.
+Type the substring:
+Not found
+Type the string (q to quit):
+123qwe
+Type the substring:
+q
+'q' found at 3 position
+Type the string (q to quit):
+123qwe
+Type the substring:
+3
+'3' found at 2 position
+Type the string (q to quit):
+123-()*&^
+Type the substring:
+^
+'^' found at 8 position
+Type the string (q to quit):
+123 56
+Type the substring:
+
+' ' found at 3 position
+Type the string (q to quit):
+ccccc
+Type the substring:
+c
+'c' found at 0 position
+Type the string (q to quit):
+q
+*** End of Searching Strings Demo ***

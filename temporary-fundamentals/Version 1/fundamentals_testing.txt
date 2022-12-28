@@ -1,0 +1,36 @@
+*** Start of the Indexing Strings Demo ***
+Type not empty string (q - to quit):
+Martin
+Type the character position within the string: 
+3
+The character found at 3 position is 't'
+Type not empty string (q - to quit):
+1234567890
+Type the character position within the string: 
+4
+The character found at 4 position is '5'
+Type not empty string (q - to quit):
+!@#$%^&*()
+Type the character position within the string: 
+5
+The character found at 5 position is '^'
+Type not empty string (q - to quit):
+Seneca College
+Type the character position within the string: 
+8
+The character found at 8 position is 'o'
+Type not empty string (q - to quit):
+HelloWorld
+Type the character position within the string: 
+15
+Too big... Position reduced to max. available
+The character found at 9 position is 'd'
+Type not empty string (q - to quit):
+HelloWorld
+Type the character position within the string: 
+-1
+Too big... Position reduced to max. available
+The character found at 9 position is 'd'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***

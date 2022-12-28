@@ -1,0 +1,64 @@
+Last login: Sun Aug 14 12:24:35 on console
+martinmathewroy@Martins-MacBook-Air ~ % cd desktop
+martinmathewroy@Martins-MacBook-Air desktop % cd CPR_PROJECT
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % ls
+fundamentals			fundamentals.c			fundamentals_testing.txt	v3
+fundamentals-test-cases.xlsx	fundamentals.h			main.c
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   fundamentals
+	modified:   fundamentals.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	fundamentals-test-cases.xlsx
+	fundamentals_testing.txt
+	v3
+
+no changes added to commit (use "git add" and/or "git commit -a")
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git add .
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git commit -m "V3"
+[master 315d9a5] V3
+ Committer: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 61 insertions(+), 43 deletions(-)
+ create mode 100644 fundamentals-test-cases.xlsx
+ rewrite fundamentals.c (83%)
+ create mode 100644 fundamentals_testing.txt
+ create mode 100755 v3
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+nothing to commit, working tree clean
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git log
+commit 315d9a5c3ad8fee5cdf621d32d42909c0b5e256c (HEAD -> master)
+Author: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Date:   Mon Aug 15 03:54:34 2022 -0400
+
+    V3
+
+commit 6112bcd176532fc7c95104d3d67a34646cd3960c
+Author: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Date:   Wed Aug 10 03:34:32 2022 -0400
+
+    V2
+
+commit de657eaa2bc4030b83ac62c50d74c76bdd65c020
+Author: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Date:   Wed Aug 10 03:15:52 2022 -0400
+
+    V1

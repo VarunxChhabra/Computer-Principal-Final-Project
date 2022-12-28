@@ -1,0 +1,112 @@
+Last login: Wed Aug 10 03:06:49 on ttys000
+martinmathewroy@Martins-MacBook-Air ~ % cd desktop     
+martinmathewroy@Martins-MacBook-Air desktop % cd CPR_PROJECT
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % ls
+fundamentals	fundamentals.c	fundamentals.h	main.c
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/martinmathewroy/Desktop/CPR_PROJECT/.git/
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	fundamentals
+	fundamentals.c
+	fundamentals.h
+	main.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git add .
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   fundamentals
+	new file:   fundamentals.c
+	new file:   fundamentals.h
+	new file:   main.c
+
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git commit -m "V1"
+[master (root-commit) de657ea] V1
+ Committer: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 96 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100755 fundamentals
+ create mode 100644 fundamentals.c
+ create mode 100644 fundamentals.h
+ create mode 100644 main.c
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+nothing to commit, working tree clean
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % 
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   fundamentals
+	modified:   fundamentals.c
+
+no changes added to commit (use "git add" and/or "git commit -a")
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git add .
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git commit -m "V2"
+[master 6112bcd] V2
+ Committer: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 43 insertions(+), 64 deletions(-)
+ rewrite fundamentals.c (91%)
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git status
+On branch master
+nothing to commit, working tree clean
+martinmathewroy@Martins-MacBook-Air CPR_PROJECT % git log
+commit 6112bcd176532fc7c95104d3d67a34646cd3960c (HEAD -> master)
+Author: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Date:   Wed Aug 10 03:34:32 2022 -0400
+
+    V2
+
+commit de657eaa2bc4030b83ac62c50d74c76bdd65c020
+Author: Martin Mathew Roy <martinmathewroy@Martins-MacBook-Air.local>
+Date:   Wed Aug 10 03:15:52 2022 -0400
+
+    V1

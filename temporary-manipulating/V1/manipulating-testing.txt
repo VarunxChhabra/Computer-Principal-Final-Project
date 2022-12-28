@@ -1,0 +1,44 @@
+* Start of Concatenating Strings Demo *
+Type the 1st string (q-to quit):
+Nimit Sharma
+Type the 2nd string:
+CPR
+Concatenated string is 'Nimit SharmaCPR'
+Type the 1st string (q-to quit):
+Qwerty
+Type the 2nd string:
+Keyboard
+Concatenated string is 'QwertyKeyboard'
+Type the 1st string (q-to quit):
+123;;
+Type the 2nd string:
+3;3
+Concatenated string is '123;;3;3'
+Type the 1st string (q-to quit):
+12345
+Type the 2nd string:
+7890
+Concatenated string is '123457890'
+Type the 1st string (q-to quit):
+Qqqqq
+Type the 2nd string:
+qqqq
+Concatenated string is 'Qqqqqqqqq'
+Type the 1st string (q-to quit):
+1er23
+Type the 2nd string:
+ety23de
+Concatenated string is '1er23ety23de'
+Type the 1st string (q-to quit):
+@#$%^&
+Type the 2nd string:
+!@#$%
+Concatenated string is '@#$%^&!@#$%'
+Type the 1st string (q-to quit):
+1sd34@%rt
+Type the 2nd string:
+qw<>12@#
+Concatenated string is '1sd34@%rtqw<>12@#'
+Type the 1st string (q-to quit):
+q
+* End of Concatenating Strings Demo *

@@ -1,0 +1,22 @@
+*** Start of Measuring Strings Demo ***
+Type a string(q - to quit) : 
+Martin
+The length of 'Martin' is 6 characters
+Type a string(q - to quit) : 
+Computer Principles for Programmers
+The length of 'Computer Principles for Programmers' is 35 characters
+Type a string(q - to quit) : 
+1234567890
+The length of '1234567890' is 10 characters
+Type a string(q - to quit) : 
+!@#$%^&*()><?|
+The length of '!@#$%^&*()><?|' is 14 characters
+Type a string(q - to quit) : 
+rbjbferhfgf75428756!@#$%^&*&^%$
+The length of 'rbjbferhfgf75428756!@#$%^&*&^%$' is 31 characters
+Type a string(q - to quit) : 
+
+The length of '' is 0 characters
+Type a string(q - to quit) : 
+q
+*** End of Measuring strings Demo***

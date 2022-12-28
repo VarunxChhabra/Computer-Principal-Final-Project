@@ -1,0 +1,18 @@
+14379@Nimit MINGW64 ~/Desktop/CPR 101/Final Project (master)
+$ git commit -m V2
+[master d414e93] V2
+ 3 files changed, 107 insertions(+), 47 deletions(-)
+
+14379@Nimit MINGW64 ~/Desktop/CPR 101/Final Project (master)
+$ git log
+commit d414e93cb61f27fa9b31a891276ef828f09091af (HEAD -> master)
+Author: Nimit <nsharma196@mySeneca.ca>
+Date:   Wed Aug 10 22:51:40 2022 -0400
+
+    V2
+
+commit 6f5e9372620dd84d50188bcf22ce2c6d774fa2c8
+Author: Nimit <nsharma196@mySeneca.ca>
+Date:   Wed Aug 10 22:36:23 2022 -0400
+
+    V1

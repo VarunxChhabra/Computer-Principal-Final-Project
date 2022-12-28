@@ -1,0 +1,43 @@
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+1
+Converted number is 1.000000
+Type the double numeric string (q - to quit):
+333
+Converted number is 333.000000
+Type the double numeric string (q - to quit):
+999999999
+Converted number is 999999999.000000
+Type the double numeric string (q - to quit):
+2789456235
+Converted number is 2789456235.000000
+Type the double numeric string (q - to quit):
+123.56
+Converted number is 123.560000
+Type the double numeric string (q - to quit):
+abx
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+123abx.5678
+Converted number is 123.000000
+Type the double numeric string (q - to quit):
+@##$
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+123456789123456789
+Converted number is 123456789123456784.000000
+Type the double numeric string (q - to quit):
+123456789123456.6654578621
+Converted number is 123456789123456.671875
+Type the double numeric string (q - to quit):
+12345678912345678992.6654578621
+Converted number is 12345678912345679872.000000
+Type the double numeric string (q - to quit):
+123456789123456.354633
+Converted number is 123456789123456.359375
+Type the double numeric string (q - to quit):
+123456789123456.125478
+Converted number is 123456789123456.125000
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***

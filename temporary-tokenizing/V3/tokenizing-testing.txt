@@ -1,0 +1,144 @@
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+Raymond Javier
+Word #1 is 'Raymond'
+Word #2 is 'Javier'
+Type a few words separated by space (q - to quit):
+Name
+Word #1 is 'Name'
+Type a few words separated by space (q - to quit):
+Always deliver quality
+Word #1 is 'Always'
+Word #2 is 'deliver'
+Word #3 is 'quality'
+Type a few words separated by space (q - to quit):
+The quick brown fox jumps over the lazy dog.
+Word #1 is 'The'
+Word #2 is 'quick'
+Word #3 is 'brown'
+Word #4 is 'fox'
+Word #5 is 'jumps'
+Word #6 is 'over'
+Word #7 is 'the'
+Word #8 is 'lazy'
+Word #9 is 'dog.'
+Type a few words separated by space (q - to quit):
+Always;deliver;quality
+Word #1 is 'Always;deliver;quality'
+Type a few words separated by space (q - to quit):
+123 456 7890
+Word #1 is '123'
+Word #2 is '456'
+Word #3 is '7890'
+Type a few words separated by space (q - to quit):
+
+Type a few words separated by space (q - to quit):
+!@#$ %^&*
+Word #1 is '!@#$'
+Word #2 is '%^&*'
+Type a few words separated by space (q - to quit):
+!@#$%^&*
+Word #1 is '!@#$%^&*'
+Type a few words separated by space (q - to quit):
+123 ABC 456DEF
+Word #1 is '123'
+Word #2 is 'ABC'
+Word #3 is '456DEF'
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q - to quit):
+This is the only phrase
+Phrase #1 is 'This is the only phrase'
+Type a few phrases separated by comma (q - to quit):
+This is the first, This is the second
+Phrase #1 is 'This is the first'
+Phrase #2 is ' This is the second'
+Type a few phrases separated by comma (q - to quit):
+This is the first, This is the second, This is the third, This is the fourth, This is the fifth, This is the sixth, This is the seventh, This is the eight, This is the ninth, This is the last.
+Phrase #1 is 'This is the first'
+Phrase #2 is ' This is the second'
+Phrase #3 is ' This is the third'
+Phrase #4 is ' This is the fourth'
+Phrase #5 is ' This is the fifth'
+Phrase #6 is ' This is the sixth'
+Phrase #7 is ' This is the seventh'
+Phrase #8 is ' This is the eight'
+Phrase #9 is ' This is the ninth'
+Phrase #10 is ' This is the last.'
+Type a few phrases separated by comma (q - to quit):
+123,456,789
+Phrase #1 is '123'
+Phrase #2 is '456'
+Phrase #3 is '789'
+Type a few phrases separated by comma (q - to quit):
+!@#$%^&*
+Phrase #1 is '!@#$%^&*'
+Type a few phrases separated by comma (q - to quit):
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+Phrase #1 is 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s'
+Phrase #2 is ' when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries'
+Phrase #3 is ' but also th'
+Type a few phrases separated by comma (q - to quit):
+Type a few phrases separated by comma (q - to quit):
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Phrase #1 is 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s'
+Phrase #2 is ' when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries'
+Phrase #3 is ' but also th'
+Type a few phrases separated by comma (q - to quit):
+Phrase #1 is ' leap into electronic typesetting'
+Phrase #2 is ' remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages'
+Phrase #3 is ' and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+Type a few phrases separated by comma (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+
+
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot (q - to quit):
+This is the only sentence
+Sentence #1 is 'This is the only sentence'
+Type a few sentences separated by dot (q - to quit):
+This is the only sentence.
+Sentence #1 is 'This is the only sentence'
+Type a few sentences separated by dot (q - to quit):
+This is the first sentence. This is the second sentence.
+Sentence #1 is 'This is the first sentence'
+Sentence #2 is ' This is the second sentence'
+Type a few sentences separated by dot (q - to quit):
+This is the first sentence. This is the second sentence. This is the third sentence. This is the fourth sentence. This is the fifth sentence.
+Sentence #1 is 'This is the first sentence'
+Sentence #2 is ' This is the second sentence'
+Sentence #3 is ' This is the third sentence'
+Sentence #4 is ' This is the fourth sentence'
+Sentence #5 is ' This is the fifth sentence'
+Type a few sentences separated by dot (q - to quit):
+123,456,789.95
+Sentence #1 is '123,456,789'
+Sentence #2 is '95'
+Type a few sentences separated by dot (q - to quit):
+!@#$%^&*
+Sentence #1 is '!@#$%^&*'
+Type a few sentences separated by dot (q - to quit):
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+Sentence #1 is 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+Sentence #2 is ' Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book'
+Sentence #3 is ' It has survived not only five centuries, but also th'
+Type a few sentences separated by dot (q - to quit):
+Type a few sentences separated by dot (q - to quit):
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Sentence #1 is 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+Sentence #2 is ' Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book'
+Sentence #3 is ' It has survived not only five centuries, but also th'
+Type a few sentences separated by dot (q - to quit):
+Sentence #1 is ' leap into electronic typesetting, remaining essentially unchanged'
+Sentence #2 is ' It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'
+Type a few sentences separated by dot (q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***
+

@@ -1,0 +1,50 @@
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+Raymond Javier
+Word #1 is 'Raymond'
+Word #2 is 'Javier'
+Type a few words separated by space (q - to quit):
+Name
+Word #1 is 'Name'
+Type a few words separated by space (q - to quit):
+Always deliver quality
+Word #1 is 'Always'
+Word #2 is 'deliver'
+Word #3 is 'quality'
+Type a few words separated by space (q - to quit):
+The quick brown fox jumps over the lazy dog.
+Word #1 is 'The'
+Word #2 is 'quick'
+Word #3 is 'brown'
+Word #4 is 'fox'
+Word #5 is 'jumps'
+Word #6 is 'over'
+Word #7 is 'the'
+Word #8 is 'lazy'
+Word #9 is 'dog.'
+Type a few words separated by space (q - to quit):
+Always;deliver;quality
+Word #1 is 'Always;deliver;quality'
+Type a few words separated by space (q - to quit):
+123 456 7890
+Word #1 is '123'
+Word #2 is '456'
+Word #3 is '7890'
+Type a few words separated by space (q - to quit):
+
+Type a few words separated by space (q - to quit):
+!@#$ %^&*
+Word #1 is '!@#$'
+Word #2 is '%^&*'
+Type a few words separated by space (q - to quit):
+!@#$%^&*
+Word #1 is '!@#$%^&*'
+Type a few words separated by space (q - to quit):
+123 ABC 456DEF
+Word #1 is '123'
+Word #2 is 'ABC'
+Word #3 is '456DEF'
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+

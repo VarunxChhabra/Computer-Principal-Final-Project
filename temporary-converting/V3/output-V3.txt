@@ -1,0 +1,37 @@
+*** Start of Converting Strings to long Demo ***
+Type the long numeric string (q - to quit):
+1
+Converted number is 1
+Type the long numeric string (q - to quit):
+333
+Converted number is 333
+Type the long numeric string (q - to quit):
+999999999
+Converted number is 999999999
+Type the long numeric string (q - to quit):
+-55610
+Converted number is -55610
+Type the long numeric string (q - to quit):
+-46513213113
+Converted number is -2147483648
+Type the long numeric string (q - to quit):
+1516532155
+Converted number is 1516532155
+Type the long numeric string (q - to quit):
+20215151502181
+Converted number is 2147483647
+Type the long numeric string (q - to quit):
+4$$$4444
+Converted number is 4
+Type the long numeric string (q - to quit):
+abc
+Converted number is 0
+Type the long numeric string (q - to quit):
+##$$2
+Converted number is 0
+Type the long numeric string (q - to quit):
+4550.3366
+Converted number is 4550
+Type the long numeric string (q - to quit):
+q
+*** End of Converting Strings to long Demo ***

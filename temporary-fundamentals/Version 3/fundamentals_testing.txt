@@ -1,0 +1,29 @@
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+Martin
+New destination string is 'Martin'
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+How are you doing
+New destination string is 'How are you doing'
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+1234567890
+New destination string is '1234567890'
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+!@#$%^&*()
+New destination string is '!@#$%^&*()'
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+ewhfbhfjf7456 fgfh47 #$%^&*&^%$#HFFDSCV
+New destination string is 'ewhfbhfjf7456 fgfh47 #$%^&*&^%$#HFFDSCV'
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+
+New destination string is ''
+Destination string is reset to empty
+Type the source string (q - to quit) : 
+q
+*** End of Copying Strings Demo ***

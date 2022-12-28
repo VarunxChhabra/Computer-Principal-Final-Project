@@ -1,0 +1,21 @@
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/Version 3 (master)
+$ git add .
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/Version 3 (master)
+$ git commit -m "This initial commit with 3 of the project"
+[master (root-commit) 3c69e5b] This initial commit with 3 of the project
+ 5 files changed, 156 insertions(+)
+ create mode 100644 Converting.xlsx
+ create mode 100644 converting.c
+ create mode 100644 converting.h
+ create mode 100644 main.c
+ create mode 100644 output-V3.txt
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/Version 3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/Version 3 (master)
+$

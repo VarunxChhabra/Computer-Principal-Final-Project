@@ -1,0 +1,20 @@
+14379@Nimit MINGW64 ~/desktop/CPR 101/Final Project (master)
+$ git log
+commit 8f995200b46ab26c40ce1b01170c56319ec9b589 (HEAD -> master)
+Author: Nimit <nsharma196@mySeneca.ca>
+Date:   Mon Aug 15 17:53:03 2022 -0400
+
+    V3
+
+commit d414e93cb61f27fa9b31a891276ef828f09091af
+Author: Nimit <nsharma196@mySeneca.ca>
+Date:   Wed Aug 10 22:51:40 2022 -0400
+
+    V2
+
+commit 6f5e9372620dd84d50188bcf22ce2c6d774fa2c8
+Author: Nimit <nsharma196@mySeneca.ca>
+Date:   Wed Aug 10 22:36:23 2022 -0400
+
+    V1
+

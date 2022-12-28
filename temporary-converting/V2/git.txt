@@ -1,0 +1,199 @@
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project
+$ pwd
+/c/Users/varun/OneDrive/Desktop/CPR Project
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project
+$ git config user.name
+Varun Chhabra
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project
+$ git config user.email
+varunchhabra0725@gmail.com
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project
+$ git init
+Initialized empty Git repository in C:/Users/varun/OneDrive/Desktop/CPR Project/.git/
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git add .
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Converting.xlsx
+        new file:   converting-testing.txt
+        new file:   converting.c
+        new file:   converting.h
+
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git commit -m"This is initial commit for version 1 of converting file which converts strings to integers"[master (root-commit) 21454bb] This is initial commit for version 1 of converting file which converts strings to integers
+ 4 files changed, 89 insertions(+)
+ create mode 100644 Converting.xlsx
+ create mode 100644 converting-testing.txt
+ create mode 100644 converting.c
+ create mode 100644 converting.h
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git remote add master https://github.com/VarunxChhabra/Cpr_converting.git
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u master main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/VarunxChhabra/Cpr_converting.git'
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git remote add master https://github.com/VarunxChhabra/Cpr_converting.git
+error: remote master already exists.
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u master
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream master master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git remote add origin https://github.com/VarunxChhabra/Cpr_converting.git
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/VarunxChhabra/Cpr_converting.git'
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin master
+
+
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 19.15 KiB | 19.15 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/VarunxChhabra/Cpr_converting.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Converting.xlsx
+        modified:   converting-testing.txt
+        modified:   converting.c
+        modified:   converting.h
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git add .
+warning: in the working copy of 'converting.c', LF will be replaced by CRLF the next time Git touches it
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Converting.xlsx
+        modified:   converting-testing.txt
+        modified:   converting.c
+        modified:   converting.h
+
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git commit -m "This is the version 2 of converting now strings are converted to double"
+[master e1d1f7c] This is the version 2 of converting now strings are converted to double
+ 4 files changed, 74 insertions(+), 62 deletions(-)
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git push -u origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 11.94 KiB | 3.98 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/VarunxChhabra/Cpr_converting.git
+   21454bb..e1d1f7c  master -> master
+branch 'master' set up to track 'origin/master'.
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ ^C
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$ git log
+commit e1d1f7c239df3a9398adb91c0d77a0f7abe3d7ca (HEAD -> master, origin/master)
+Author: Varun Chhabra <varunchhabra0725@gmail.com>
+Date:   Wed Aug 10 21:17:08 2022 -0400
+
+    This is the version 2 of converting now strings are converted to double
+
+commit 21454bbc2169cd2bbc99e8805629707a045a3c5f
+Author: Varun Chhabra <varunchhabra0725@gmail.com>
+Date:   Wed Aug 10 21:06:25 2022 -0400
+
+    This is initial commit for version 1 of converting file which converts strings to integers
+
+varun@DESKTOP-PDCB90P MINGW64 ~/OneDrive/Desktop/CPR Project (master)
+$

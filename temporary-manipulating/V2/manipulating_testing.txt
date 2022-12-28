@@ -1,0 +1,44 @@
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Seneca
+Type the 2nd string to compare:
+College
+'Seneca' string is greater than 'College'
+Type the 1st string to compare (q - to quit):
+1234
+Type the 2nd string to compare:
+1245
+'1234' string is less than '1245'
+Type the 1st string to compare (q - to quit):
+Alph12se
+Type the 2nd string to compare:
+Alh234
+'Alph12se' string is greater than 'Alh234'
+Type the 1st string to compare (q - to quit):
+!@#$%
+Type the 2nd string to compare:
+!@$%^
+'!@#$%' string is less than '!@$%^'
+Type the 1st string to compare (q - to quit):
+Qwerty
+Type the 2nd string to compare:
+QWERTY
+'Qwerty' string is greater than 'QWERTY'
+Type the 1st string to compare (q - to quit):
+123$%er
+Type the 2nd string to compare:
+#$qw!@
+'123$%er' string is greater than '#$qw!@'
+Type the 1st string to compare (q - to quit):
+QQ
+Type the 2nd string to compare:
+qq
+'QQ' string is less than 'qq'
+Type the 1st string to compare (q - to quit):
+Seneca
+Type the 2nd string to compare:
+Seneca2
+'Seneca' string is less than 'Seneca2'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
